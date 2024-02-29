@@ -24,7 +24,7 @@ The only files of interest are:
 ```
 
 The app WILL NOT retrieve anything in its current state because the server side isn't CORS enabled and it isn't configured correctly.  With more time I could get around this by standing up a local backend, enabling CORS and configuring it correctly.  I don't have that time.
-The client call error message is "[Network error]: ServerParseError: Unexpected end of JSON input" because of the aforementioned configuration resulting in the server side returning an empty response.
+The client call error message is ```[Network error]: ServerParseError: Unexpected end of JSON inpu``` because of the aforementioned configuration resulting in the server side returning an empty response.
         
         
        
